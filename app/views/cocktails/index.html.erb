@@ -3,6 +3,8 @@
 <%= link_to "New cocktail", new_cocktail_path %>
 <br>
 <br>
+<%= cl_image_tag("k7nmaeqhzkmaawpbbqc9",
+      width: 400, height: 300, crop: :fill) %>
 
 <ul>
   <% @cocktails.each do |cocktail| %>
